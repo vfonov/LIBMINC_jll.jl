@@ -21,8 +21,8 @@ The tarballs for `LIBMINC_jll.jl` have been built from these sources:
 
 The following JLL packages are required by `LIBMINC_jll.jl`:
 
-* `HDF5_jll)`
-* `NetCDF_jll)`
+* `HDF5_jll`
+* `NetCDF_jll`
 
 ## Products
 
