@@ -1,6 +1,6 @@
 name = "LIBMINC_jll"
 uuid = "e365f29a-713b-59c4-b64a-7ac3c1ec6045"
-version = "2.4.9+0"
+version = "2.4.10+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
