@@ -6,4 +6,4 @@ os = "linux"
 
     [[LIBMINC.download]]
     sha256 = "3e8d4182bcee7673084fd15a132a2db3bd21df958b982af1a1ba80fb4d0e8c2b"
-    url = "https://github.com/vfonov/LIBMINC_jll.jl/releases/download/LIBMINC-v2.4.10+0/LIBMINC.v2.4.10.x86_64-linux-gnu.tar.gz"
+    url = "https://github.com/vfonov/LIBMINC_jll.jl/releases/download/LIBMINC-v2.4.11+0/LIBMINC.v2.4.11.x86_64-linux-gnu.tar.gz"
