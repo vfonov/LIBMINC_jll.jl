@@ -1,6 +1,6 @@
 name = "LIBMINC_jll"
 uuid = "e365f29a-713b-59c4-b64a-7ac3c1ec6045"
-version = "2.4.11+0"
+version = "2.4.12+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -13,5 +13,5 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.0"
-NetCDF_jll = "400.902.5"
-HDF5_jll = "1.12.2"
+NetCDF_jll = "~400.902.5"
+HDF5_jll = "~1.12.2"
