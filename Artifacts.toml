@@ -1,9 +1,9 @@
 [[LIBMINC]]
 arch = "x86_64"
-git-tree-sha1 = "6b74446e087d22ca49aecd413bcc9717d569f8fc"
+git-tree-sha1 = "629d93e8f6c8c4de0ca0789294d1aa0a3a01e941"
 libc = "glibc"
 os = "linux"
 
     [[LIBMINC.download]]
-    sha256 = "5d29ef3a6ae8472670b6374360d6e6fd4d59d72ebf2c4938b39bf3439a416407"
+    sha256 = "ef654a6d3fac5b63e1dcaeb7cdcd5ae5d4c9545e88074ce974b501aa74a3ec91"
     url = "https://github.com/vfonov/LIBMINC_jll.jl/releases/download/LIBMINC-v2.4.13+0/LIBMINC.v2.4.13.x86_64-linux-gnu.tar.gz"

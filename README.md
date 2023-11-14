@@ -10,7 +10,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `LIBMINC_jll.jl` have been built from these sources:
 
-* git repository: git@github.com:BIC-MNI/libminc.git (revision: `00d8c687f2d048dfdb822e8bd2679c9141893ac8`)
+* git repository: git@github.com:BIC-MNI/libminc.git (revision: `15d994def83274b715711afffa73268167ec2cc6`)
 * git repository: git@github.com:NIST-MNI/minc2-simple.git (revision: `e7203f04941faf45cd7cea9149e7b196672fb117`)
 
 ## Platforms
