@@ -17,7 +17,12 @@ The tarballs for `LIBMINC_jll.jl` have been built from these sources:
 
 `LIBMINC_jll.jl` is available for the following platforms:
 
-* `Linux x86_64 {libc=glibc}` (`x86_64-linux-gnu`)
+* `Linux x86_64 {cxxstring_abi=cxx03, libc=glibc, libgfortran_version=3.0.0}` (`x86_64-linux-gnu-libgfortran3-cxx03`)
+* `Linux x86_64 {cxxstring_abi=cxx11, libc=glibc, libgfortran_version=3.0.0}` (`x86_64-linux-gnu-libgfortran3-cxx11`)
+* `Linux x86_64 {cxxstring_abi=cxx03, libc=glibc, libgfortran_version=4.0.0}` (`x86_64-linux-gnu-libgfortran4-cxx03`)
+* `Linux x86_64 {cxxstring_abi=cxx11, libc=glibc, libgfortran_version=4.0.0}` (`x86_64-linux-gnu-libgfortran4-cxx11`)
+* `Linux x86_64 {cxxstring_abi=cxx03, libc=glibc, libgfortran_version=5.0.0}` (`x86_64-linux-gnu-libgfortran5-cxx03`)
+* `Linux x86_64 {cxxstring_abi=cxx11, libc=glibc, libgfortran_version=5.0.0}` (`x86_64-linux-gnu-libgfortran5-cxx11`)
 
 ## Dependencies
 
