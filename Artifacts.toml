@@ -1,14 +1,5 @@
 [[LIBMINC]]
 arch = "x86_64"
-git-tree-sha1 = "337d061e75a281eebc447e05a35eccd40594b9c4"
-libc = "glibc"
-os = "linux"
-
-    [[LIBMINC.download]]
-    sha256 = "63b48742bcf0d5d3fc6bcfc13df558fcb40e5dba0fa8a098a9bde66626ae8a8d"
-    url = "https://github.com/vfonov/LIBMINC_jll.jl/releases/download/LIBMINC-v2.4.13+0/LIBMINC.v2.4.13.x86_64-linux-gnu.tar.gz"
-[[LIBMINC]]
-arch = "x86_64"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "337d061e75a281eebc447e05a35eccd40594b9c4"
 libc = "glibc"
@@ -73,3 +64,12 @@ os = "linux"
     [[LIBMINC.download]]
     sha256 = "66fc06403dd478e050fc124d0549c11c1342c7c7e2e62fdb583eef020e098456"
     url = "https://github.com/vfonov/LIBMINC_jll.jl/releases/download/LIBMINC-v2.4.13+0/LIBMINC.v2.4.13.x86_64-linux-gnu-libgfortran5-cxx11.tar.gz"
+[[LIBMINC]]
+arch = "x86_64"
+git-tree-sha1 = "337d061e75a281eebc447e05a35eccd40594b9c4"
+libc = "glibc"
+os = "linux"
+
+    [[LIBMINC.download]]
+    sha256 = "63b48742bcf0d5d3fc6bcfc13df558fcb40e5dba0fa8a098a9bde66626ae8a8d"
+    url = "https://github.com/vfonov/LIBMINC_jll.jl/releases/download/LIBMINC-v2.4.13+0/LIBMINC.v2.4.13.x86_64-linux-gnu.tar.gz"
