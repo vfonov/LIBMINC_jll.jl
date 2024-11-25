@@ -1,10 +1,9 @@
 name = "LIBMINC_jll"
 uuid = "e365f29a-713b-59c4-b64a-7ac3c1ec6045"
-version = "2.4.6+0"
+version = "2.4.7+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 NetCDF_jll = "7243133f-43d8-5620-bbf4-c2c921802cf3"
 HDF5_jll = "0234f1f7-429e-5d53-9886-15a909be8d59"
@@ -13,5 +12,7 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
-NetCDF_jll = "~400.902.5"
-HDF5_jll = "~1.12.2"
+Libdl = "< 0.0.1, 1"
+Artifacts = "< 0.0.1, 1"
+HDF5_jll = "~1.14.3"
+NetCDF_jll = "~400.902.211"
