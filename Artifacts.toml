@@ -1,0 +1,11 @@
+[[libminc]]
+arch = "x86_64"
+git-tree-sha1 = "959f404568fbc4e19ac99b56224bf31cdac21a62"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[libminc.download]]
+    sha256 = "9bbe0a41b9b38f11624b7fd965b948f3484f796a0d1ea96dcecdbaae7a80d1cd"
+    url = "https://github.com/vfonov/libminc_jll.jl/releases/download/libminc-v2.5.0+0/libminc.v2.5.0.x86_64-linux-gnu-libgfortran5-mpi+mpitrampoline.tar.gz"
