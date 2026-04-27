@@ -3,21 +3,16 @@ uuid = "dce2f2bf-0ed4-5a0e-8af7-a90b827a9344"
 version = "2.5.0+0"
 
 [deps]
-MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 NetCDF_jll = "7243133f-43d8-5620-bbf4-c2c921802cf3"
 HDF5_jll = "0234f1f7-429e-5d53-9886-15a909be8d59"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 JLLWrappers = "1.7.0"
-julia = "1.9"
-MPIPreferences = "0.1"
+julia = "1.6"
 Libdl = "< 0.0.1, 1"
-TOML = "< 0.0.1, 1"
 Artifacts = "< 0.0.1, 1"
 HDF5_jll = "~1.14.6"
 NetCDF_jll = "~401.900.300"

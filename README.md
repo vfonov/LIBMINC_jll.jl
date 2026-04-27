@@ -17,17 +17,14 @@ The tarballs for `libminc_jll.jl` have been built from these sources:
 
 `libminc_jll.jl` is available for the following platforms:
 
-* `Platform("x86_64", "linux"; libgfortran_version = "5.0.0", mpi = "mpich", libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpich`)
-* `Platform("x86_64", "linux"; libgfortran_version = "5.0.0", mpi = "mpitrampoline", libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpitrampoline`)
-* `Platform("x86_64", "linux"; libgfortran_version = "5.0.0", mpi = "openmpi", libc = "glibc", cxxstring_abi = "cxx11")` (`x86_64-linux-gnu-libgfortran5-cxx11-mpi+openmpi`)
+* `Platform("x86_64", "linux"; libc = "glibc")` (`x86_64-linux-gnu`)
+* `Platform("x86_64", "linux"; libc = "musl")` (`x86_64-linux-musl`)
 
 ## Dependencies
 
 The following JLL packages are required by `libminc_jll.jl`:
 
-* `CompilerSupportLibraries_jll`
 * `HDF5_jll`
-* `MPIPreferences`
 * `NetCDF_jll`
 
 ## Products
