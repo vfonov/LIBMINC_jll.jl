@@ -1,0 +1,18 @@
+[[libminc]]
+arch = "x86_64"
+git-tree-sha1 = "66147e7f97bcbc234060e82174dabe10d53b5910"
+libc = "glibc"
+os = "linux"
+
+    [[libminc.download]]
+    sha256 = "0a497c792a3751fc63d8cad4c5ee721f339c7dfc4cda7dcbd18ea62ec9aa2400"
+    url = "https://github.com/vfonov/libminc_jll.jl/releases/download/libminc-v2.5.0+0/libminc.v2.5.0.x86_64-linux-gnu.tar.gz"
+[[libminc]]
+arch = "x86_64"
+git-tree-sha1 = "e8041aced0e3ce88fde476bda3afe6dd7b1701ea"
+libc = "musl"
+os = "linux"
+
+    [[libminc.download]]
+    sha256 = "ad7604d0d1aeadbbfd0845a8143c67948d22df0874cc18dca049bc012c089736"
+    url = "https://github.com/vfonov/libminc_jll.jl/releases/download/libminc-v2.5.0+0/libminc.v2.5.0.x86_64-linux-musl.tar.gz"
